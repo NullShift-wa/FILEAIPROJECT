@@ -3,8 +3,8 @@ import streamlit as st
 from PIL import Image
 # import sys, os # Có thể xóa luôn cả import sys nếu không dùng nữa
 
-from src.utils.animal_info.py import animal_info
-from src.inference.predict.py import transform
+from src.utils.animal_info import animal_info
+from src.inference.predict import transform
 
 
 
