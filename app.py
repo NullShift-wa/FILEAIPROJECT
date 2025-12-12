@@ -1,11 +1,11 @@
 # code by : TranPhuocPhong
 import streamlit as st
 from PIL import Image
-import sys, os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# import sys, os # Có thể xóa luôn cả import sys nếu không dùng nữa
 
 from src.utils.animal_info import animal_info
 from src.inference.predict import transform
+
 
 
 
